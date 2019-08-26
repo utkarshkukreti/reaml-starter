@@ -1,0 +1,11 @@
+{
+  "name": "reaml-starter",
+  "version": "0.0.0",
+  "sources": { "dir": "src", "subdirs": true },
+  "ppx-flags": ["reaml-ppx/ppx"],
+  "package-specs": { "module": "es6", "in-source": true },
+  "suffix": ".bs.js",
+  "bs-dependencies": ["reaml"],
+  "warnings": { "error": "+101" },
+  "refmt": 3
+}

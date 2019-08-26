@@ -1,0 +1,6 @@
+/.cache
+/.merlin
+/dist
+/lib
+/node_modules
+/src/*.bs.js
