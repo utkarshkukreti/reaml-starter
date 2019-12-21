@@ -2,7 +2,7 @@
   "name": "reaml-starter",
   "version": "0.0.0",
   "sources": { "dir": "src", "subdirs": true },
-  "ppx-flags": ["reaml-ppx/ppx"],
+  "ppx-flags": ["reaml/ppx.exe"],
   "package-specs": { "module": "es6", "in-source": true },
   "suffix": ".bs.js",
   "bs-dependencies": ["reaml"],
