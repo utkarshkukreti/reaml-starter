@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "reaml": "^0.2.2"
+    "reaml": "^0.3.0"
   },
   "devDependencies": {
     "bs-platform": "^7.0.1",
