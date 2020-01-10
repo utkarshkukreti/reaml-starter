@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "run-p start:bsb start:parcel",
+    "start": "npm-run-all build:bsb -p start:bsb start:parcel",
     "start:bsb": "bsb -make-world -w",
     "start:parcel": "parcel -d .cache/dev src/index.html",
     "build": "run-s build:bsb build:parcel",
@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "reaml": "^0.6.1"
+    "reaml": "^0.6.3"
   },
   "devDependencies": {
     "bs-platform": "^7.0.1",
