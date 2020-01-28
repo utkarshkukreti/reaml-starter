@@ -4228,10 +4228,10 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-reaml@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/reaml/-/reaml-0.7.1.tgz#0b0932dd9b21e763cb344edab05687746948142a"
-  integrity sha512-aTdzhREv7z7oJ/uaMWfxMwhF3ndNEz5Lx3RqPrf27JUnaswW+16js849b3Fu10Y21NvueSjIewQ8wglpqZD9zg==
+reaml@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/reaml/-/reaml-0.7.2.tgz#d434b72177f1eaa6038596e773b5e22edc2195ce"
+  integrity sha512-RMTc1JFu2jrBX7oby8YSrJ5IsLdO6qd22HQ/jtb1eEQA2ZebUR5fPq4KEWF2OFKAfhMeb6L+Q8TM2jPuNrSzwg==
   dependencies:
     bs-webapi "^0.15.6"
 
