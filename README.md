@@ -1,4 +1,4 @@
-# Reaml Starter
+# Reaml Starter ![Build](https://github.com/utkarshkukreti/reaml-starter/workflows/Build/badge.svg)
 
 A starter for [Reaml](https://github.com/utkarshkukreti/reaml) demonstrating a
 `useReducer` based Counter.
