@@ -6,7 +6,7 @@
     "start": "npm-run-all build:bsb -p start:bsb start:parcel",
     "start:bsb": "bsb -make-world -w",
     "start:parcel": "parcel -d .cache/dev src/index.html",
-    "build": "run-s build:bsb build:parcel",
+    "build": "run-s clean build:bsb build:parcel",
     "build:bsb": "bsb -make-world",
     "build:parcel": "parcel build src/index.html",
     "clean": "rm -rf .cache dist && bsb -clean-world"
